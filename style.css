@@ -1,0 +1,133 @@
+/* .main{
+    margin: 3em;
+    display: flex;
+    font: 1.5em;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.amount .intrest{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    height: 6.5rem;
+}
+
+.input{
+    border: 1px solid black;
+    border-radius: 5px;
+    border-width: 2em;
+    padding: 2px 6px;
+    font-weight: 800;
+    color: black;
+}
+label{
+    padding-right: 10px;
+    font-size: 2em;
+}
+#result{
+    font-weight: 700;
+    font-size: 2em;
+    color: brown;
+    margin-top: 1.4rem;
+}
+#btn{
+    border: none;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-top: 1em;
+} */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(lightblue,lightgreen);
+}
+
+.main{
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 80vw;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 60px 30px;
+    border-radius: 30px;
+    box-sizing: 0 20px 40px 10px black;
+}
+
+label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+input{
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+    color:red;
+    padding: 2px 15px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2.4px solid greenyellow;
+}
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-wrapper input{
+    width: 100%;
+}
+.time-wrapper input{
+    width: 60%;
+}
+select{
+    width: 35%;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin-left: 3%;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    background-color: #c6ffe2;
+    border: none;
+    color:black;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+#result{
+    background-color: aliceblue;
+    margin-top: 30px;
+    color: #585858;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+#result div{
+    margin-bottom: 10px;
+
+}
+#result span{
+    color: black;
+    font-weight: 500;
+}
